@@ -9,6 +9,7 @@
 .column {
   @apply flex-1 p-4 mr-4 rounded bg-gray-200;
   min-width: 350px;
+  padding-bottom: 1.8rem;
 }
 
 .column-header {
@@ -32,4 +33,12 @@
 /* CUSTOM */
 .task-card {
   margin-bottom: 1.25rem;
+}
+
+.column-name {
+  margin-bottom: 1.25rem;
+}
+
+.edit-column-name-button {
+  margin-right: 0.8rem;
 }
